@@ -2,7 +2,7 @@
 
 A generator for randomized open-world challenge runs for Octopath Traveller.
 
-[Access it here](tukkek.github.io/octopathfinder).
+[Access it here](https://tukkek.github.io/octopathfinder).
 
 ## See also
 
