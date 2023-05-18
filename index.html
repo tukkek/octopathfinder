@@ -1,0 +1,21 @@
+<title>Octopathfinder</title>
+
+<link rel='stylesheet' href='./style.css'>
+
+<div id='heroes'>
+  <strong>Heroes</strong> (use as few as you want)
+  <ol></ol>
+</div>
+
+<div id='dungeons'>
+  <strong>Dungeons</strong>
+  <ol></ol>
+</div>
+
+<script type='module'>
+  import * as hero from './script/model/hero.js'
+  import * as dungeon from './script/model/dungeon.js'
+  
+  hero.setup()
+  dungeon.setup()
+</script>
