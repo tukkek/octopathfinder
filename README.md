@@ -1,6 +1,6 @@
-# Octopathfindee
+# Octopathfinder
 
-A generator for randomized open-world challenge-runs of Octopath Traveller.
+A generator for randomized open-world challenge runs for Octopath Traveller.
 
 ## See also
 
