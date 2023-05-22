@@ -2,8 +2,15 @@
 
 <link rel='stylesheet' href='./style.css'>
 
+<div>Limit yourself to number of heroes in your party and goals to complete according to preference:</div>
+
 <div id='heroes'>
-  <strong>Heroes</strong> (use as few as you want)
+  <strong>Heroes</strong>
+  <ol></ol>
+</div>
+
+<div id='goals'>
+  <strong>Goals</strong>
   <ol></ol>
 </div>
 
@@ -15,7 +22,9 @@
 <script type='module'>
   import * as hero from './script/model/hero.js'
   import * as dungeon from './script/model/dungeon.js'
+  import * as goal from './script/control/goal.js'
   
   hero.setup()
   dungeon.setup()
+  goal.setup()
 </script>

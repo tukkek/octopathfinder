@@ -1,4 +1,4 @@
-import * as rpg from '../rpg.js'
+import * as rpg from '../control/rpg.js'
 
 const HIGH=[
   "Everhold Tunnels, West Everhold Pass",
@@ -22,6 +22,8 @@ const LOW=[
 ]
 const TIERS=[LOW,MID,HIGH]
 const VIEW=document.querySelector('#dungeons ol')
+
+export var paths=Math.round((HIGH.length+MID.length+LOW.length)/3)
 
 export function setup(){
   for(let t of TIERS){

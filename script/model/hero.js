@@ -1,6 +1,8 @@
-import * as rpg from '../rpg.js'
+import * as rpg from '../control/rpg.js'
 
-const HEROES=rpg.shuffle([
+const VIEW=document.querySelector('#heroes ol')
+
+export var heroes=rpg.shuffle([
   'Alfyn',
   'Cyrus',
   "H'aanit",
@@ -10,12 +12,11 @@ const HEROES=rpg.shuffle([
   'Therion',
   'Tressa',
 ])
-const VIEW=document.querySelector('#heroes ol')
 
 export function setup(){
-  for(let i=0;i<4;i++){
+  for(let i=0;i<heroes.length;i++){
     let li=document.createElement('li')
-    li.textContent=HEROES[i]
+    li.textContent=heroes[i]
     VIEW.appendChild(li)
   }
 }

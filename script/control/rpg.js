@@ -12,5 +12,3 @@ export function shuffle(array){
 }
 
 export function pick(array){return array[roll(0,array.length-1)]}
-
-for(let i=0;i<3;i++) console.log(pick([1,2,3]))
