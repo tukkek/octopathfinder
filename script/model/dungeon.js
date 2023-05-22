@@ -20,13 +20,12 @@ const LOW=[
   "Twin Falls, South Clearbrook Traverse",
   "Whistling Cavern, Eastern Sunshade Sands",
 ]
-const TIERS=[LOW,MID,HIGH]
 const VIEW=document.querySelector('#dungeons ol')
 
-export var paths=Math.round((HIGH.length+MID.length+LOW.length)/3)
+export var tiers=[LOW,MID,HIGH]
 
 export function setup(){
-  for(let t of TIERS){
+  for(let t of tiers){
     let li=document.createElement('li')
     li.textContent=rpg.pick(t)
     VIEW.appendChild(li)
