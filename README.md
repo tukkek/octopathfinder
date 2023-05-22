@@ -1,8 +1,6 @@
 # Octopathfinder
 
-A generator for randomized open-world challenge runs for Octopath Traveller.
-
-[Access it here](https://tukkek.github.io/octopathfinder).
+Generates randomized open-world challenge runs for Octopath Traveller. [Access it here](https://tukkek.github.io/octopathfinder).
 
 ## See also
 
